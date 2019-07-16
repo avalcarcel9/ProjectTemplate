@@ -15,15 +15,18 @@ knitr::opts_chunk$set(
 # ProjectTemplate
 
 <!-- badges: start -->
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/avalcarcel9/ProjectTemplate?branch=master&svg=true)](https://ci.appveyor.com/project/avalcarcel9/ProjectTemplate)
+[![Travis build status](https://travis-ci.org/avalcarcel9/ProjectTemplate.svg?branch=master)](https://travis-ci.org/avalcarcel9/ProjectTemplate)
+[![Codecov test coverage](https://codecov.io/gh/avalcarcel9/ProjectTemplate/branch/master/graph/badge.svg)](https://codecov.io/gh/avalcarcel9/ProjectTemplate?branch=master)
 <!-- badges: end -->
 
-The goal of ProjectTemplate is to ...
+The goal of ProjectTemplate is to create a template for project workflows in the PennSIVE working group.
 
 ## Installation
 
-You can install the released version of ProjectTemplate from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of ProjectTemplate from [GitHub](https://github.com/avalcarcel9/ProjectTemplate) with:
 
-``` r
+```{r}
 install.packages("ProjectTemplate")
 ```
 
