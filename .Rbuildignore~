@@ -5,4 +5,3 @@
 ^\.travis\.yml$
 ^codecov\.yml$
 Data/
-tests/

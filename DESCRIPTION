@@ -1,12 +1,10 @@
 Package: ProjectTemplate
-Type: Package
-Title: What the Package Does (Title Case)
+Title: A package to Create PennSIVE Center Projects
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: person(given = "Alessandra", family = "Valcarcel", email = "alval@pennmedicine.upenn.edu", role = c("aut","cre"))
+Maintainer: Alessandra Valcarcel <alval@pennmedicine.upenn.edu>
+Description: A package template for the PennSIVE Center project workflow. A simple example is provided.
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
@@ -17,3 +15,9 @@ Suggests:
     testthat,
     covr
 VignetteBuilder: knitr
+Imports: 
+    tibble,
+    stringr,
+    broom,
+    parallel,
+    stats

@@ -17,3 +17,34 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(ProjectTemplate)
 ```
+
+
+# Rmd First Method
+
+This template and workflow is inspired by
+
+1. [https://rtask.thinkr.fr/blog/rmd-first-when-development-starts-with-documentation/](https://rtask.thinkr.fr/blog/rmd-first-when-development-starts-with-documentation/)
+
+# Workflow
+
+Steps:
+
+1. Readme
+
+- Exploration of a baby project
+- Code and annotation of code/data
+- Order to run things
+
+2. Project/Package Setup
+
+- Set up and R package with a project once the project starts coming to life
+- Convert some of the exploratory Readme code to R functions
+- Document what data you're using and where it is
+- Create R functions
+  - Data generation function
+  - Results function
+  - Paper
+  - Supplemental code called by the data generation or results function
+  
+3. Set up a vignette to organize your thoughts and discuss the order of the code
+
