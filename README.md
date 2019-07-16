@@ -22,6 +22,7 @@ workflows in the PennSIVE working group.
     a folder we are saving to
   - put tests in .Rbuildignore since they are empty. Eventually add
     tests
+  - put results\_generation.R in git ignore for now put it back later
 
 ## Installation
 
@@ -37,7 +38,7 @@ remotes::install_github("avalcarcel9/ProjectTemplate")
 First generate the data:
 
 ``` r
-setwd(23)
+set.seed(23)
 # Run the function
 data_generation(iter = 10000,
                 n = 1000,

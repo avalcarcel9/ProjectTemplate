@@ -4,5 +4,6 @@
 ^appveyor\.yml$
 ^\.travis\.yml$
 ^codecov\.yml$
-Data/
-tests/
+^Data$
+^tests$
+^R/results_generation\.R$

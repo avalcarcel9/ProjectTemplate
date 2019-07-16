@@ -26,6 +26,7 @@ The goal of ProjectTemplate is to create a template for project workflows in the
 
 - put Data in .Rbuildignore so eventually figure out where to best put a folder we are saving to
 - put tests in .Rbuildignore since they are empty. Eventually add tests
+- put results_generation.R in git ignore for now put it back later
 
 ## Installation
 
@@ -40,7 +41,7 @@ remotes::install_github("avalcarcel9/ProjectTemplate")
 First generate the data:
 
 ```{r, eval = FALSE, echo = TRUE}
-setwd(23)
+set.seed(23)
 # Run the function
 data_generation(iter = 10000,
                 n = 1000,

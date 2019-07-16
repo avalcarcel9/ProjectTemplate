@@ -76,7 +76,7 @@ data_generation <- function(iter = 10000,
     }
 
     # Save the lm to a temporary file
-    save(linear_model, file = file.path('Data', 'lm', paste0('lm_', iter, '.RData')))
+    save(linear_model, file = file.path('Data', 'lm', paste0('lm_', i, '.RData')))
 
     message(paste0('Finished iteration ', i))
   }

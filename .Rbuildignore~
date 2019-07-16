@@ -5,3 +5,8 @@
 ^\.travis\.yml$
 ^codecov\.yml$
 Data/
+tests/
+^R/results_generation.R$
+^Data$
+^tests$
+^R/results_generation\.R$
